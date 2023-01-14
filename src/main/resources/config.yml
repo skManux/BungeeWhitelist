@@ -1,0 +1,32 @@
+#
+#    ______        ___     _ _       _ _     _
+#   | __ ) \      / / |__ (_) |_ ___| (_)___| |_
+#   |  _ \\ \ /\ / /| '_ \| | __/ _ \ | / __| __|
+#   | |_) |\ V  V / | | | | | ||  __/ | \__ \ |_
+#   |____/  \_/\_/  |_| |_|_|\__\___|_|_|___/\__|
+#
+#              Developed by sk_Manux
+#
+
+messages:
+  no-perms: "&6&lWhiteList &8» &7Non hai il permesso di eseguire questo comando."
+  unknown: "&6&lWhiteList &8» &7Comando Sconosciuto."
+  whitelist:
+    usage: "&6&lWhiteList &8» &7Utilizzo: &e/bwl <mode|remove|add|on|off> [Player|IP|Mode]&7."
+    enabled: "&6&lWhiteList &8» &7Hai abilitato la whitelist."
+    disabled: "&6&lWhiteList &8» &7Hai disabilitato la whitelist."
+    added: "&6&lWhiteList &8» &7Hai aggiunto &e%target% &7alla whitelist."
+    removed: "&6&lWhiteList &8» &7Hai rimosso &e%target% &7dalla whitelist."
+    username-mode: "&6&lWhiteList &8» &7Hai impostato la whitelist sulla modalità Username."
+    ip-mode: "&6&lWhiteList &8» &7Hai impostato la whitelist sulla modalità IP."
+    unknown-mode: "&6&lWhiteList &8» &7Modalità disponibili: &eusername, ip&7."
+
+whitelist:
+  # Modes Available:
+  #  1: Username Whitelist
+  #  2: IP Whitelist
+  enabled: false
+  mode: 1
+  list:
+    - "sk_Manux"
+  kick-message: "&6&lNupped\n\n&7Non sei nella whitelist!\n\n&7Seguici su discord per restare aggiornato.\n&eds.nupped.it"
